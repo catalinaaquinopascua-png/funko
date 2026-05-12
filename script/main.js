@@ -17,7 +17,7 @@ function MostrarProductos(lista) {
             <p>${i.descripción}</p>
             <div>
                 <p>${i.stock}</p>
-                <button onclick="Favoritos()">❤️</button>
+                <button onclick="Favoritos() class="btnfav">❤️</button>
             </div>
         `
         Contenedor.appendChild(nuevodiv)
@@ -25,3 +25,22 @@ function MostrarProductos(lista) {
 }
 
 MostrarProductos(ListaProductos)
+
+let Contenedor = document.querySelector(".contenedor")
+let texto = document.getElementById("texto")
+
+texto.addEventListener("keyup", function () {
+    let filtrar = ListaProductos.filter(i=>i.nombre.toLowerCase().include(texto.value.toLowerCase().trim()))
+    if (filtrar>0) {
+        MostrarProductos(filtrar)
+    } else {
+        Contenedor.innerHTML = `
+            <p>No hay coincidencias...</p>
+        `
+    }
+})
+
+function Favoritos() {
+    let contendedorFav = document.querySelector("#favoritos")
+    contendedorFav
+}

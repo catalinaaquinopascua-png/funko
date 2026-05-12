@@ -1,7 +1,7 @@
 # Website Funko Pop Tematica Halloween
 - Colaboradores:
-    1 Elba Aquino Catalina (FrontEnd)
-    2 Daniel Alessandro Cafferata (BackEnd)
+    - Elba Aquino Catalina (FrontEnd)
+    - Daniel Alessandro Cafferata (BackEnd)
 - Curso 6°3
 - Grupo de Taller: 6.8
 - Materia: Labotatorio de Diseño Web Estatico

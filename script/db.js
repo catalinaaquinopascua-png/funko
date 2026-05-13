@@ -1,91 +1,91 @@
 export const ListaProductos = [{
-    nombre: "Federico Travella / B",
-    descripción: "No dejes que tu colección de Resident Evil se quede indefensa. Barry Burton, el veterano miembro del equipo Alpha y héroe reacio de la Mansión Spencer, está listo para la acción en su versión Funko Pop!. Este vinilo captura la esencia de un personaje legendario: amigo leal, experto en Magnum y, sobre todo, un hombre de familia.",
-    precio: 30000,
-    stock: 300,
+    nombre: "Federico Travella - Michael Myers",
+    descripción: "El icónico asesino silencioso llega en versión Funko Pop con su clásica máscara blanca y cuchillo en mano. Una figura imprescindible para los amantes del terror slasher y las películas de culto.",
+    precio: 95000,
+    stock: 2,
     img: "../src/FunkoPops/ACFunkoPopTravella.png"
 }, {
-    nombre: "Pablo Gareis / Albert Wesker",
-    descripción: "¡Lleva a casa al cerebro detrás del caos de Umbrella! El Funko Pop de Albert Wesker es un imprescindible para cualquier fan de Resident Evil. Con su icónico traje negro, gafas de sol y expresión fría, este coleccionable captura la esencia del traicionero capitán de S.T.A.R.S. y villano definitivo de la saga. ¡Añade al 'dios' de la nueva evolución a tu vitrina antes de que se agoten!",
-    precio: 21000,
-    stock: 450,
+    nombre: "Pablo Gareis - Freddy Krueger",
+    descripción: "Directamente desde las pesadillas, Freddy aparece con su sombrero desgastado, suéter rojo y verde, y su aterrador guante de cuchillas. Perfecto para una colección de horror clásico.",
+    precio: 100000,
+    stock: 5,
     img: "../src/FunkoPops/ACFunkoPopGareis.png"
 }, {
-    nombre: "Bruno Araujo / Piers Nivans",
-    descripción: "¡Añade a tu colección al incondicional 'ojos de águila' de la BSAA! Piers Nivans, el prodigio de la puntería y compañero de confianza de Chris Redfield en Resident Evil 6, llega en forma de Funko Pop! para proteger tu estantería de cualquier amenaza bioterrorista.",
-    precio: 23000,
-    stock: 400,
+    nombre: "Bruno Araujo - Jason Voorhees",
+    descripción: "El legendario asesino de Crystal Lake cobra vida en este Funko Pop lleno de detalles, incluyendo su famosa máscara de hockey y apariencia intimidante.",
+    precio: 95200,
+    stock: 4,
     img: "../src/FunkoPops/ACFunkoPopBruno.png"
 }, {
-    nombre: "Gutierrez Sol / Jill Valentine",
-    descripción: "Añade a tu colección a la verdadera 'Master of Unlocking' con esta increíble figura Funko Pop de Jill Valentine. Basada en su icónica apariencia como miembro de élite del equipo S.T.A.R.S. en el Resident Evil original, esta figura de vinilo de 10 cm captura a la perfección su uniforme azul, la boina de la policía de Raccoon City y su determinación inquebrantable para detener el brote zombi. Tanto si eres fan del terror clásico como de los remakes modernos, Jill es una pieza imprescindible en tu estantería.",
-    precio: 26000,
-    stock: 360,
+    nombre: "Gutierrez Sol - Ghostface",
+    descripción: "El misterioso asesino de la saga Scream llega con su túnica negra y máscara fantasmal. Un personaje imprescindible para fanáticos del suspense y el terror moderno.",
+    precio: 100000,
+    stock: 1,
     img: "../src/FunkoPops/ACFunkoPopSol.png"
 }, {
-    nombre: "Daniel Cafferata / Leon Scott Kennedy",
-    descripción: "¿Eres fan de la élite de la BSAA? ¡No dejes escapar el Funko Pop de Umber Eyes (Rolando Elba)! Como francotirador y segundo al mando de Chris Redfield en Resident Evil Village, esta figura captura su look táctico listo para la operación en Europa del Este. Con su equipo de combate de alta tecnología y su porte imponente, Umber Eyes es la pieza de acción que le falta a tu vitrina de Resident Evil. ¡Haz tu preventa/compra ahora y asegura al especialista de la unidad Hound Wolf antes de que se agote!",
-    precio: 25000,
-    stock: 390,
+    nombre: "Daniel Cafferata - Pennywise",
+    descripción: "El terrorífico payaso creado por Stephen King aparece con su sonrisa perturbadora y globo rojo característico. Ideal para darle un toque espeluznante a cualquier colección.",
+    precio: 89100,
+    stock: 6,
     img: "../src/FunkoPops/ACFunkoPopDaniel.png"
 }, {
-    nombre: "Joaquin Paz / Nemesis",
-    descripción: "¡STARS...! Revive el pánico de Raccoon City con este espectacular Funko Pop de Nemesis, el arma biológica definitiva de Umbrella Corporation. Esta figura captura la esencia del antagonista más implacable de Resident Evil 3. Con su bazuca en mano y su rostro característico lleno de cicatrices, este pequeño titán de vinilo de 3.75 pulgadas está diseñado para dominar tu estantería. Si eres fan del terror de supervivencia, este Pop es una joya 'vaulted' (descatalogada) que no puede faltar.",
-    precio: 25000,
-    stock: 240,
+    nombre: "Joaquin Paz - Chucky",
+    descripción: "El muñeco asesino más famoso del cine llega en una versión Funko Pop adorable y aterradora al mismo tiempo, con su overol clásico y mirada siniestra.",
+    precio: 90670,
+    stock: 3,
     img: "../src/FunkoPops/ACFunkoPopNemesis.png"
 }, {
-    nombre: "Elba Aquino / Claire Redfield",
-    descripción: "¡Añade a tu colección a la superviviente más tenaz de Raccoon City!Esta figura Funko Pop de Claire Redfield captura a la perfección a la hermana menor de Chris Redfield, preparada para enfrentar cualquier amenaza biológica. Con su icónica chaqueta roja (diseño basado en RE2 Remake), esta figura es un homenaje a la valentía y el carisma de una de las protagonistas más humanas y queridas de la saga Resident Evil. ¡No dejes que el apocalipsis te sorprenda sin ella en tu estantería!",
-    precio: 24000,
-    stock: 350,
+    nombre: "Elba Aquino - Leatherface",
+    descripción: "Con su motosierra y máscara hecha de piel humana, Leatherface representa uno de los villanos más brutales e icónicos del cine de horror.",
+    precio: 98710,
+    stock: 6,
     img: "../src/FunkoPops/ACFunkoPopClaireRedfield.png"
 }, {
-    nombre: "Martina Borda / Rebecca Chambers",
-    descripción: "Añade a tu estantería a la valiente Rebecca Chambers, la miembro más joven y talentosa del equipo Bravo. Esta figura captura a la perfección a la bioquímica de 18 años, experta en medicina y superviviente nata de los incidentes del Ecliptic Express (Resident Evil 0) y la Mansión Spencer (Resident Evil 1). Con su uniforme clásico verde de S.T.A.R.S. y su bandana roja, Rebecca es la mezcla perfecta de inocencia y valentía. ¡Imprescindible para los fans de los juegos clásicos de survival horror!",
-    precio: 23500,
-    stock: 340,
+    nombre: "Martina Borda - Jack Skellington",
+    descripción: "El Rey Calabaza de Halloween Town destaca con su elegante traje negro y sonrisa inolvidable. Una figura imprescindible para coleccionistas Disney y amantes de Halloween.",
+    precio: 89945,
+    stock: 4,
     img: "../src/FunkoPops/ACFunkoPopRebecca.png"
 }, {
-    nombre: "Elias Paniagua / Buhonero",
-    descripción: "¡Atención, forasteros! 🧟‍♂️ Añade a tu colección al personaje más misterioso, carismático y útil de todo el universo de Resident Evil con esta increíble figura Funko Pop! inspirada en El Buhonero (The Merchant) de Resident Evil 4 (Remake 2023).",
-    precio: 26000,
-    stock: 320,
+    nombre: "Elias Paniagua - Beetlejuice",
+    descripción: "El excéntrico fantasma de traje a rayas llega con toda su energía caótica y humor oscuro. Un Funko Pop perfecto para fans del terror cómico y Tim Burton.",
+    precio: 76050,
+    stock: 1,
     img: "../src/FunkoPops/ACFunkoPopBuhonero.png"
 }, {
-    nombre: "Gabriel / Hunk",
-    descripción: "¡Añade a tu colección al superviviente más letal de Umbrella Corporation! Directamente desde el infierno de Raccoon City llega HUNK, también conocido como 'La Parca' (The Grim Reaper), el enigmático líder del equipo Alfa del U.S.S. (Umbrella Security Service).",
-    precio: 24000,
-    stock: 315,
+    nombre: "Gabriel - Sam (Trick ’r Treat)",
+    descripción: "El pequeño guardián de Halloween aparece con su pijama naranja y saco de tela en la cabeza. Un personaje de culto para verdaderos fanáticos de la festividad.",
+    precio: 59900,
+    stock: 0,
     img: "../src/FunkoPops/ACFunkoPopHunk.png"
 }, {
-    nombre: "Franco / Chris Redfield",
-    descripción: "El legendario agente de la B.S.A.A. llega a tu colección! Este Funko Pop de Chris Redfield captura al protagonista incondicional de Resident Evil, listo para enfrentar cualquier amenaza biológica. Con su icónico uniforme táctico, es la pieza indispensable para los verdaderos fans de Survival Horror. ¡Consigue el tuyo y protege tu estantería!",
-    precio: 22300,
-    stock: 380,
+    nombre: "Franco - Vecna",
+    descripción: "El aterrador villano del Upside Down llega con un diseño lleno de detalles oscuros y una apariencia monstruosa que impacta en cualquier colección.",
+    precio: 89350,
+    stock: 2,
     img: "../src/FunkoPops/ACFunkoPopChris.png"
 }, {
-    nombre: "Jazmin Ayestaran / Sheva Alomar",
-    descripción: "¡Añade a la valiente compañera de Chris Redfield a tu colección BSAA!Esta figura Funko Pop de Sheva Alomar recrea fielmente su apariencia en Resident Evil 5. Con su icónico chaleco táctico morado, pantalones de combate y su característico peinado de cola de caballo, esta versión chibi es imprescindible para los fans del survival horror. Como Agente de Operaciones Especiales de la BSAA, Sheva se destaca por su agilidad, puntería y lealtad inquebrantable. Perfecta para exhibir junto a Chris Redfield o Albert Wesker.",
-    precio: 24000,
-    stock: 290,
+    nombre: "Jazmin Ayestaran - Wednesday Addams",
+    descripción: "La hija más famosa de la Familia Addams aparece con su uniforme oscuro y expresión seria. Perfecta para fans del misterio y la estética gótica.",
+    precio: 98100,
+    stock: 5,
     img: "../src/FunkoPops/ACFunkoPopSheva.png"
 }, {
-    nombre: "Ludmila / Alexia Ashford",
-    descripción: "¡Atención fans de Resident Evil! Añade a tu vitrina a una de las villanas más brillantes, crueles y elegantes de la saga. Este Funko Pop! de Alexia Ashford captura la esencia de la matriarca de la familia Ashford y creadora del temible virus T-Veronica.",
-    precio: 21500,
-    stock: 345,
+    nombre: "Ludmila - Pinhead",
+    descripción: "¡Funko tiene tales visiones para mostrarte! Añade al líder de los Cenobitas a tu colección de terror con este Funko Pop! de Pinhead.",
+    precio: 76520,
+    stock: 3,
     img: "../src/FunkoPops/ACFunkoPopAlexia.png"
 }, {
-    nombre: "Gabi / Tyrant-103",
-    descripción: "¡El perseguidor incansable llega a tu colección! 🧟‍♂️🔥Directo desde los pasillos más oscuros de la Comisaría de Raccoon City, llega el Funko Pop! de Tyrant-103, conocido por todos los supervivientes como Mr. X. Esta figura de edición 'Super Sized' de 6 pulgadas captura la inconfundible gabardina verde oliva y la mirada gélida del B.O.W. más temido de Resident Evil 2 Remake.",
-    precio: 26050,
-    stock: 370,
+    nombre: "Gabi - Nemesis",
+    descripción: "El arma biológica más temida de Resident Evil llega en una versión Funko Pop intimidante y detallada, ideal para fanáticos de los videojuegos de horror.",
+    precio: 98550,
+    stock: 7,
     img: "../../src/FunkoPops/ACFunkoPopT103.png"
 }, {
-    nombre: "Lucas Billar / Billar Sergei Vladimir",
-    descripción: "¡Añade a tu colección al cerebro detrás del U.B.C.S. y el protector personal de Umbrella! Este Funko Pop! captura al despiadado Coronel Sergei Vladimir, el antagonista principal de Resident Evil: The Umbrella Chronicles y uno de los ejecutivos más leales a Ozwell E. Spencer.",
-    precio: 25020,
-    stock: 395,
+    nombre: "Lucas Billar - Billy the Puppet",
+    descripción: "El macabro títere de Saw llega con su traje elegante y mejillas en espiral. Una pieza esencial para coleccionistas del terror psicológico y películas de culto.",
+    precio: 89620,
+    stock: 2,
     img: "../src/FunkoPops/ACFunkoPopSergei.png"
 }]

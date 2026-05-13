@@ -17,7 +17,6 @@ function MostrarProductos(lista) {
             <p>${i.descripción}</p>
             <div>
                 <p>${i.stock}</p>
-                <button onclick="Favoritos() class="btnfav">❤️</button>
             </div>
         `
         Contenedor.appendChild(nuevodiv)
@@ -40,7 +39,3 @@ texto.addEventListener("keyup", function () {
     }
 })
 
-function Favoritos() {
-    let contendedorFav = document.querySelector("#favoritos")
-    contendedorFav
-}

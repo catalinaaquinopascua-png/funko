@@ -1,40 +1,50 @@
-import { ListaProductos } from "./db.js";
+    import { ListaProductos } from "./db.js";
 
 function MostrarProductos(lista) {
-    let Contenedor = document.querySelector(".contenedor")
-    Contenedor.innerHTML = ""
+    let div = document.querySelector(".contenedor")
+    div.innerHTML = ""
     lista.forEach(i => {
         let nuevodiv = document.createElement("div")
-        nuevodiv.classList.add("Tarjeta")
-        nuevodiv.innerHTML = `
-            <div>
+        nuevodiv.className = "Tarjetas"
+        nuevodiv.innerHTML =
+            `
+            <div class="Tarjeta-Titulo">
                 <div>
                     <h1>${i.nombre}</h1>
-                    <p>${i.precio}</p>
+                    <p>$ ${i.precio}</p>
                 </div>
-                <img src="${i.img}" height="80px">
+                <img src="${i.img}">   
+            </div> 
+            <div class="Tarjeta-Texto">
+                <p>${i.descripción}</p>
             </div>
-            <p>${i.descripción}</p>
             <div>
-                <p>${i.stock}</p>
-            </div>
+                <div class="Precio">
+                    <p>$ ${i.precio}</p>
+                    <p>Stock: ${i.stock}</p>
+                </div>
+                
+            <div>
+
         `
-        Contenedor.appendChild(nuevodiv)
+        div.appendChild(nuevodiv)
     });
 }
 
 MostrarProductos(ListaProductos)
 
-let Contenedor = document.querySelector(".contenedor")
-let texto = document.getElementById("texto")
 
-texto.addEventListener("keyup", function () {
-    let filtrar = ListaProductos.filter(i=>i.nombre.toLowerCase().include(texto.value.toLowerCase().trim()))
-    if (filtrar>0) {
-        MostrarProductos(filtrar)
+let div = document.querySelector(".contenedor")
+let textoCrudo = document.getElementById("texto")
+let buscar = document.querySelector("#buscar")
+
+textoCrudo.addEventListener("keyup", function () {
+    let Filtrar = ListaProductos.filter(i => i.nombre.toLowerCase().includes(textoCrudo.value.trim().toLowerCase()))
+    if (Filtrar.length > 0) {
+        MostrarProductos(Filtrar)
     } else {
-        Contenedor.innerHTML = `
-            <p>No hay coincidencias...</p>
+        div.innerHTML = `
+            <p>No se encontraron coincidencias....</p>
         `
     }
 })

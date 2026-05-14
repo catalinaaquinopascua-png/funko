@@ -13,7 +13,7 @@ function MostrarProductos(lista) {
                     <h1>${i.nombre}</h1>
                     <p>$ ${i.precio}</p>
                 </div>
-                <img src="${i.img}">   
+                <img src="${i.imgA}">   
             </div> 
             <div class="Tarjeta-Texto">
                 <p>${i.descripción}</p>

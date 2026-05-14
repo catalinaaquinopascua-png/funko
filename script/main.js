@@ -19,9 +19,8 @@ function MostrarProductos(lista) {
                 <p>${i.descripción}</p>
             </div>
             <div>
-                <div class="Precio">
-                    <p>$ ${i.precio}</p>
-                    <p>Stock: ${i.stock}</p>
+                <div class="Stock">
+                    <p>Stock: <span style="color: greenyellow;">${i.stock}</span></p>
                 </div>
                 
             <div>

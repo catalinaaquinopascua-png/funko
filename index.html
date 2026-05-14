@@ -1,32 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
+
 <body>
-    <header>
-        <div>
+    <!--
+    #640D5F
+    #B12C00
+    #EB5B00
+    #FFCC00
+    -->
+    <header class="encabezado">
+        <a href="index.html"><img src="SRC/LogoHalloween.png"></a>
+        <div class="menu">
             <a href="">Contactos</a>
-            <a href="">Galeria</a>
-            <a href="Pages/Productos.html">Productos</a>
+            <a href="Pages/Galería.html" class="Especial">Galeria</a>
+            <a href="Pages/Productos.html" class="Especial">Productos</a>
             <a href="">Nosotros</a>
         </div>
     </header>
-    
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="SRC/Fondo/FondoHalloween2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="SRC/Fondo/FondoHalloween1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="SRC/Fondo/FondoHalloween3.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <main>
+        <div class="TarjetaKey">
+            <div class="KeyFrameImg"></div>
+            <div>
+                <h1>Sitio Web Halloween</h1>
+                <p style="font-size: 13.9px;">Venta de Funkos de Halloween y Terror 🧛‍♂️✨. Encuentra las figuras más
+                    aterradoras de Funko Pop!
+                    Películas de Terror, Exclusivos de la temporada, Sam, Pennywise, Ghost Face y más. Figuras 100%
+                    originales en [Nombre de tu Tienda]. ¡No dejes que desaparezcan en la noche! 📦🔥.</p>
+            </div>
+        </div>
+    </main>
     <footer>
         <div class="info">
-            <h1>Descripción</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In quaerat doloribus itaque. Odit, ducimus non assumenda sed recusandae adipisci, sit nisi obcaecati eligendi accusamus consequatur in debitis error, nobis eum.</p>
+            <h1><span style="color: black;">D</span>escripció<span style="color: black;">n</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In quaerat doloribus itaque. Odit, ducimus non
+                assumenda sed recusandae adipisci, sit nisi obcaecati eligendi accusamus consequatur in debitis error,
+                nobis eum.</p>
         </div>
-        <div class="logopie">
-            <div><img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-
+        <div class="redes">
+            <div>
+                <img src="SRC/github.png" alt="imgRedes">
+                <img src="SRC/Facebook.png" alt="imgRedes">
+                <img src="SRC/Instagram.png" alt="imgRedes">
+                <img src="SRC/X.png" alt="imgRedes">
             </div>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3274.628244487518!2d-58.46701282444742!3d-34.84043837287022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd6aaca975e65%3A0x7e7f33de3d236b75!2sG%C3%BCemes%202051%2C%20B1842%20Monte%20Grande%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1775550780496!5m2!1ses-419!2sar"
@@ -34,16 +89,17 @@
                 referrerpolicy="no-referrer-when-downgrade">
             </iframe>
         </div>
-        <div class="infonav">
-            <nav>
-                <h1>Secciones de la Página</h1>
-                <a href="">Productos</a>
-                <a href="">Galeria</a>
-                <a href="">Contactos</a>
-                <a href="">Nosotros</a>
-            </nav>
+        <div class="menuFooter">
+            <h3>Secciones de la Página</h3>
+            <a href="Pages/Productos.html">Productos</a>
+            <a href="Pages/Galería.html">Galeria</a>
+            <a href="">Contactos</a>
+            <a href="">Nosotros</a>
         </div>
     </footer>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

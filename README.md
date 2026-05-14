@@ -18,6 +18,7 @@ Acctividad_duos
     css
         style.css  # --> Hoja de Estilos
     Pages
+        Galería    # --> Página Web Secundaria
         Productos  # --> Página Web Secundaria
     script 
         db.js      # --> Base de Datos (Arrays)

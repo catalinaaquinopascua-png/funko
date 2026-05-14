@@ -87,6 +87,7 @@ body {
 .Tarjetas:hover {
     transform: rotate(2deg);
     background-color: #EB5B00;
+    box-shadow: 3px 3px 20px black;
 }
 
 .Tarjetas:hover .Tarjeta-Titulo {

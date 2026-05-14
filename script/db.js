@@ -9,7 +9,7 @@ export const ListaProductos = [{
     descripción: "Directamente desde las pesadillas, Freddy aparece con su sombrero desgastado, suéter rojo y verde, y su aterrador guante de cuchillas. Perfecto para una colección de horror clásico.",
     precio: 100000,
     stock: 5,
-    img: "../SRC/FunkoPops/ACFunkoPopGareis.png"
+    img: "../SRC/FunkoPops/AcFunkoPopGareis.png"
 }, {
     nombre: "Bruno Araujo - Jason Voorhees",
     descripción: "El legendario asesino de Crystal Lake cobra vida en este Funko Pop lleno de detalles, incluyendo su famosa máscara de hockey y apariencia intimidante.",

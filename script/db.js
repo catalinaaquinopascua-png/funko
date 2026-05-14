@@ -3,7 +3,7 @@ export const ListaProductos = [{
     descripción: "El icónico asesino silencioso llega en versión Funko Pop con su clásica máscara blanca y cuchillo en mano. Una figura imprescindible para los amantes del terror slasher y las películas de culto.",
     precio: 95000,
     stock: 2,
-    img: "SRC/FunkoPops/AcFunkoPopFederico.png"
+    img: "../SRC/FunkoPops/AcFunkoPopFederico.png"
 }, {
     nombre: "Pablo Gareis - Freddy Krueger",
     descripción: "Directamente desde las pesadillas, Freddy aparece con su sombrero desgastado, suéter rojo y verde, y su aterrador guante de cuchillas. Perfecto para una colección de horror clásico.",

@@ -9,7 +9,7 @@ export const ListaProductos = [{
     descripción: "Directamente desde las pesadillas, Freddy aparece con su sombrero desgastado, suéter rojo y verde, y su aterrador guante de cuchillas. Perfecto para una colección de horror clásico.",
     precio: 100000,
     stock: 5,
-    img: "../SRC/FunkoPops/AcFunkoPopGareis.png"
+    img: "SRC/FunkoPops/AcFunkoPopGareis.png"
 }, {
     nombre: "Bruno Araujo - Jason Voorhees",
     descripción: "El legendario asesino de Crystal Lake cobra vida en este Funko Pop lleno de detalles, incluyendo su famosa máscara de hockey y apariencia intimidante.",
@@ -21,7 +21,7 @@ export const ListaProductos = [{
     descripción: "El misterioso asesino de la saga Scream llega con su túnica negra y máscara fantasmal. Un personaje imprescindible para fanáticos del suspense y el terror moderno.",
     precio: 100000,
     stock: 1,
-    img: "../SRC/FunkoPops/ACFunkoPopSol.png"
+    img: "../SRC/FunkoPops/AcFunkoPopBrunoJason.png"
 }, {
     nombre: "Daniel Cafferata - Pennywise",
     descripción: "El terrorífico payaso creado por Stephen King aparece con su sonrisa perturbadora y globo rojo característico. Ideal para darle un toque espeluznante a cualquier colección.",

@@ -90,7 +90,7 @@ export const ListaProductos = [{
     img: "../SRC/FunkoPops/ACFunkoPopPinhead.png",
     imgA: "../script/FunkoPops/P.png"
 }, {
-    nombre: "Gabi - Nemesis",
+    nombre: "Lisandro - Nemesis",
     descripción: "El arma biológica más temida de Resident Evil llega en una versión Funko Pop intimidante y detallada, ideal para fanáticos de los videojuegos de horror.",
     precio: 98550,
     stock: 7,

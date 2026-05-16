@@ -1,4 +1,8 @@
-# Website Funko Pop Tematica Halloween
+# 🎃 Website Funko Pop Tematica Halloween 🎃
+- Descripción<br>
+✨ Sitio Web sobre la venta de funko pops con tematica de Halloween✨
+    - 🌙 Pasate por la página web de Productos para ver todos los funko pops a la venta de peliculas y series del genero 💀
+    - 😱 Pasate por la página web de Galería para ver imagenes relacionadas 🐈‍⬛
 - Colaboradores:
     - Elba Aquino Catalina (FrontEnd)
     - Daniel Alessandro Cafferata (BackEnd)

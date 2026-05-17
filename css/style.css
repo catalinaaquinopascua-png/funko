@@ -201,6 +201,10 @@ footer {
     padding: 18px;
 }
 
+.info img {
+    height: 80px;
+}
+
 .menuFooter {
     gap: 30px;
     width: 30%;
@@ -285,26 +289,77 @@ footer {
     footer {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        height: 330px;
+        padding: 3px;
     }
-
+    .info {
+        width: 100%;
+    }
     .info p {
-        font-size: 18px;
-        line-height: 50px;
+        font-size: 12.3px !important;
+        line-height: 25px;
     }
-
+    .info img {
+        height: 45px !important; 
+    }
     .redes {
-        text-align: center;
-        width: 10%;
-        display: flex;
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
         justify-content: center;
-
+        padding: 0px 25px !important;
     }
-
-    .redes img {
+    .redes div {
+        display: flex;
+        flex-direction: flex;
+        justify-content: center;
+    }
+    .redes iframe {
         height: 50px;
-        width: 50px;
+        width: 100%;
     }
+    .redes img {
+        height: 35px;
+        width: 35px;
+    }
+    .menuFooter {
+        width: 100%;
+    }
+    .menuFooter h3 {
+        font-size: 16.5px !important;
+    }
+    .grid-footer-enlaces {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: center; 
+    }
+    .grid-footer-enlaces div {
+        width: 100%;
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 1190px) {
+    .info {
+        padding: 3px;
+    }
+    .info p {
+        font-size: 13.4px;
+    }
+    .info img {
+       height: 60px;
+    }
+    .menuFooter {
+        gap: 10px;
+    }
+    .redes {
+        gap: 10px;
+        padding: 5px;
+    }
+    .redes img {
+        margin: 10px;
+    }
+    
 }
 
 
